@@ -13,6 +13,8 @@
     "@netless/cursor-tool": "^0.1.1",
     "@netless/white-web-sdk": "^2.3.15",
     "@radix-ui/themes": "^3.2.1",
+    "agora-rtc-react": "latest",
+    "agora-token": "latest",
     "axios": "^1.9.0",
     "code": "file:",
     "dotenv-load": "^3.0.0",
@@ -20,11 +22,13 @@
     "gsap": "^3.13.0",
     "konva": "^9.3.20",
     "lucide-react": "^0.508.0",
-    "next": "15.3.2",
+    "next": "^15.3.2",
     "openai": "^4.97.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-konva": "^19.0.3"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-konva": "^19.0.3",
+    "react-particles": "^2.12.2",
+    "tsparticles-slim": "^2.12.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

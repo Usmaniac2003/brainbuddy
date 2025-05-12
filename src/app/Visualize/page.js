@@ -1,4 +1,4 @@
-import AnimatedText from "@/components/animatedText/page";
+import AnimatedText from "@/components/AnimatedText/page";
 
 export default function GsapTextAnimator(){
     return <>
