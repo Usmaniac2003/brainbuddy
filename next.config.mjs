@@ -17,11 +17,11 @@ const nextConfig = {
     };
 
     // 2) Alias Konva's Node entrypoint to the browser build
-    config.resolve.alias = {
-      ...(config.resolve.alias || {}),
-      // Whenever code tries to import 'konva/lib/index-node.js', use the browser bundle
-      ['konva/lib/index-node.js']: require.resolve('konva/konva.js'),
-    };
+    // config.resolve.alias = {
+    //   ...(config.resolve.alias || {}),
+    //   // Whenever code tries to import 'konva/lib/index-node.js', use the browser bundle
+    //   ['konva/lib/index-node.js']: require.resolve('konva/konva.js'),
+    // };
 
     return config;
   },

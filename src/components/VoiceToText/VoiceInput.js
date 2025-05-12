@@ -56,7 +56,7 @@ const VoiceInput = ({ onTranscript, disabled }) => {
         recognition.stop();
       }
     };
-  }, [handleTranscript]); // Only trigger this effect if handleTranscript changes
+  }, [handleTranscript,recognition]); // Only trigger this effect if handleTranscript changes
 
   const toggleListening = () => {
     if (!recognition) return;

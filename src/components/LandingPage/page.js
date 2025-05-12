@@ -111,7 +111,7 @@ export default function LandingPage() {
 
         {/* Fun character */}
         <div className="mt-12 bg-purple-600 rounded-full p-6 shadow-lg transform rotate-3">
-          <div className="text-yellow-300 text-xl md:text-2xl font-bold">Ready to have fun learning? Let's go! 🚀</div>
+          <div className="text-yellow-300 text-xl md:text-2xl font-bold">Ready to have fun learning? Let&apos;s go! 🚀</div>
         </div>
 
         {/* Footer */}

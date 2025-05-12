@@ -308,7 +308,7 @@ export default function VisualizePage() {
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="text-center text-yellow-200 px-4">
                 <Sparkles className="h-8 w-8 mx-auto mb-2 text-yellow-300" />
-                <p className="text-lg">Enter a math equation above and click "Visualize"</p>
+                <p className="text-lg">Enter a math equation above and click Visualize</p>
                 <p className="text-sm mt-2 text-yellow-300/70">Examples: 2+3=5, 5-2, 3*4, 10/2</p>
               </div>
             </div>
