@@ -1,10 +1,9 @@
-import Chat from "@/components/Chat";
-import Image from "next/image";
+import LandingPage from "@/components/landingPage/page";
 
 export default function Home() {
   return (
    <div>
-   <Chat/>
+   <LandingPage/>
    </div>
   );
 }
