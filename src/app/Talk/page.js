@@ -1,4 +1,4 @@
-import VoiceChat from "../../components/VoiceAgent/VoiceComponent";
+import VoiceChat from "../../components/voiceagent/VoiceComponent";
 
 export default function TalktoBrainBuddy(){
     return<>
